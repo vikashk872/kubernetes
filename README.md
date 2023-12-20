@@ -1,4 +1,4 @@
-This repo contains the kubernetes manifest file
+This repo contains the kubernetes manifest file.
 setup:
 1. install docker desktop
 2. install visual studio code 
