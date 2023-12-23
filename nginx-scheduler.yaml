@@ -7,5 +7,12 @@ spec:
   containers:
   -  image: nginx
      name: nginx
+     resources:
+            limits:
+              memory: 512Mi
+              cpu: "1"
+     requests:
+              memory: 256Mi
+              cpu: "0.2"      
   nodeName: controlplane
 # nodeName property define on which scheduler container shoul run
